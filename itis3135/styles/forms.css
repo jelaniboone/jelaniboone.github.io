@@ -1,0 +1,22 @@
+* {
+    background-color: navy;
+    color: white;
+}
+
+.class3 {
+    color: green;
+}
+
+.class2 {
+    color: lightblue;
+    font-weight: bold;
+}
+
+.class1 {
+    color: pink;
+    font-style: italic;
+}
+
+.class4 {
+    color: orangered;
+}
