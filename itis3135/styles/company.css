@@ -1,25 +1,31 @@
 body {
-    background-color: lightblue;
+    background-color: #C7EFCF;
   }
   
   h1 {
-    color: white;
+    color: #22333B;
     text-align: center;
   }
 
   h2 {
     text-align: center;
+    color: #22333B;
   }
   
   p {
     font-family: verdana;
     font-size: 20px;
+    color: #22333B;
   }
 
   a {
-    color: blueviolet;
+    color: #A9927D;
   }
 
   nav {
     text-align: center;
+  }
+
+  li {
+    color: #22333B;
   }
