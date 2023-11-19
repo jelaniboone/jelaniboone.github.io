@@ -1,3 +1,5 @@
+@media (min-width: 576px) {
+
 body {
     background-color: lightblue;
   }
@@ -36,3 +38,4 @@ body {
     margin-bottom: 10px;
     display: block;
   }
+}
