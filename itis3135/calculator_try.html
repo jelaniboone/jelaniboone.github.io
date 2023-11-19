@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helly Acharya's Homey Alligator || ITIS 3135 Calculator Try</title>
+    <link rel="stylesheet" href="styles/default.css">
+    <style>
+        body {
+            background-image: url('images/download.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+        }
+
+       
+    </style>   
+</head>
+<body>
+    <div class="container"> 
+    <div data-include="components/header.html"></div>
+    <script src="scripts/HTMLInclude.min.js"></script>
+    <main>
+        
+        <header>
+            <h1>Simple Calculator</h1>
+        </header>
+        <section id="calculator">
+            <input type="text" id="display" readonly>
+            <div id="buttons">
+                <button onclick="appendToDisplay('1')">1</button>
+                <button onclick="appendToDisplay('2')">2</button>
+                <button onclick="appendToDisplay('3')">3</button>
+                <button onclick="appendToDisplay('4')">4</button>
+                <button onclick="appendToDisplay('5')">5</button>
+                <button onclick="appendToDisplay('6')">6</button>
+                <button onclick="appendToDisplay('7')">7</button>
+                <button onclick="appendToDisplay('8')">8</button>
+                <button onclick="appendToDisplay('9')">9</button>
+                <button onclick="appendToDisplay('0')">0</button>
+                <button onclick="addDecimalPoint()">.</button>
+                <button onclick="clearDisplay()">C</button>
+                <button onclick="appendToDisplay('+')">+</button>
+                <button onclick="appendToDisplay('-')">-</button>
+                <button onclick="appendToDisplay('*')">*</button>
+                <button onclick="appendToDisplay('/')">/</button>
+                <button onclick="calculateResult()" class="equal-button">=</button>
+                
+            </div>
+        </section>
+       
+    </main>
+    <div data-include="components/footer.html"></div>
+    <script src="scripts/HTMLInclude.min.js"></script>
+ 
+    </div>
+    <script src="scripts/calculator_try.js"></script>
+</body>
+</html>
