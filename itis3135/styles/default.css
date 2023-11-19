@@ -2,6 +2,10 @@ body {
     background-color: lightblue;
   }
   
+  main {
+    padding: 13px;
+  }
+
   h1 {
     color: white;
     text-align: center;
@@ -22,4 +26,13 @@ body {
 
   nav {
     text-align: center;
+  }
+
+  form {
+    display: block;
+  }
+
+  label {
+    margin-bottom: 10px;
+    display: block;
   }
