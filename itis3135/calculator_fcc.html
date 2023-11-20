@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jelani Boone's Jazzy Bobcats || ITIS3135 || Calculator FCC</title>
+    <link rel="stylesheet" href="./styles/default.css">
+    <script src="./scripts/calculator_fcc.js"></script>
+    <style>
+        html {
+            box-sizing: border-box;
+        }
+
+        .frame {
+            border: solid black;
+            width: 400px;
+            height: 500px;
+            background: #a4243b;
+            margin: 0 auto;
+            overflow: auto;
+            flex-direction: column;
+            display: flex;
+        }
+
+        .frame, .display, .input {
+            border-radius: 10px;
+        }
+
+        .display {
+            font-size: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 10px;
+            height: 20%;
+            background-color: #a4243b;
+        }
+
+        .input {
+            background-color: #a4243b;
+            display: grid;
+            height: 80%;
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        .input button {
+            font-size: 30px;
+            border-radius: 0;
+        }
+
+        .is-depressed {
+            background-color: #a4243b;
+        }
+    </style>
+</head>
+<body>
+
+    <div data-include="./components/header.html"></div>
+
+    <main>
+        <br>
+        <h1 style="text-align: center;">Calculator</h1>
+        <br>
+        <div class="frame">
+            <div class="display">0</div>
+            <div class="input">
+                <button data-action="add">+</button>
+                <button data-action="subtract">-</button>
+                <button data-action="multiply">x</button>
+                <button data-action="divide">/</button>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button data-action="calculate" style="grid-row: span 4;">=</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>0</button>
+                <button data-action="decimal">.</button>
+                <button data-action="clear">AC</button>
+            </div>
+        </div>
+        <br>
+    </main>
+
+    <div data-include="./components/footer.html"></div>
+    
+    <script src="./scripts/HTMLInclude.min.js"></script>
+    
+</body>
+</html>
