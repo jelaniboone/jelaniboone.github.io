@@ -12,6 +12,10 @@ body {
     color: #354F52;
   }
 
+  form {
+    padding: 13px;
+  }
+
   h1 {
     color: white;
     text-align: center;
