@@ -5,7 +5,11 @@ body {
   }
   
   main {
+    text-align: center;
     padding: 13px;
+    margin: 0;
+    text-decoration: none;
+    color: #354F52;
   }
 
   h1 {
