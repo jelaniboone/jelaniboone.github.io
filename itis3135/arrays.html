@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helly Acharya's Homey Alligator || ITIS 3135 Arrays</title>
+    <link rel="stylesheet" href="styles/default.css">
+    <style>
+        body {
+            background-image: url('images/backgroundimage.JPG');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+        }
+
+       
+    </style>   
+</head>
+<body>
+    
+    <div data-include="components/header.html"></div>
+    <script src="scripts/HTMLInclude.min.js"></script>
+    <main>
+    <h1>Salary Tracker</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" autofocus>
+        <label for="salary">Salary:</label>
+        <input type="text" id="salary">
+        <button type="button" id="addButton">Add Salary</button>
+    </form>
+
+    <h2>Employee Salaries</h2>
+    <table id="results_table">
+        <tr>
+            <th>Name</th>
+            <th>Salary</th>
+        </tr>
+    </table>
+
+    <div id="results">
+        <h2>Results</h2>
+        <p>Average Salary: <span id="averageSalary">0</span></p>
+        <p>Highest Salary: <span id="highestSalary">0</span></p>
+    </div>
+
+</main>
+
+    <div data-include="components/footer.html"></div>
+    <script src="scripts/HTMLInclude.min.js"></script>
+    
+    <script src="scripts/arrays.js"></script>
+</body>
+</html>
