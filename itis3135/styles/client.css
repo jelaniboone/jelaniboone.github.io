@@ -9,15 +9,23 @@
         padding: 13px;
         margin: 0;
         text-decoration: none;
-        color: #354F52;
+        color: lightblue;
       }
     
       form {
         padding: 13px;
       }
+
+      ol {
+        text-align: left;
+      }
+
+      ul {
+        text-align: center;
+      }
     
       h1 {
-        color: white;
+        color: lightblue;
         text-align: center;
       }
     
