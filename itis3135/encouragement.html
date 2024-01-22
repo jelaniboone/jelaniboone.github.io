@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encouragement Words</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app-container">
+        <div id="message-display">Your Encouraging Message Here!</div>
+        <input type="text" id="message-input" placeholder="Type your message...">
+        <button id="update-message">Update Message</button>
+        <div id="background-options">
+            <!-- Background option buttons go here -->
+        </div>
+        <button id="generate-link">Generate Shareable Link</button>
+    </div>
+    <script src="script.js"></script>
+  <!-- Inside the <div id="background-options"> in the previous HTML -->
+<button class="background-btn">Random Galaxy</button>
+<!-- Add this within the <body> tag -->
+<div id="link-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <p id="shareable-link"></p>
+        <button id="copy-link">Copy</button>
+    </div>
+</div>
+<!-- Rest of the existing HTML -->
+
+</body>
+</html>
